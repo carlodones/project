@@ -15,6 +15,6 @@ ENV INITSYSTEM on
 
 #CMD ["python", "/usr/src/src/thread_sense.py"]
 
-CMD ["python", "usr/src/FCA/src/MODBUS/tMODUBUS.py"]
+CMD ["python", "/src/MODBUS/tMODUBUS.py"]
 
 
