@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import asyncio  
 import time  
 from datetime import datetime
@@ -12,8 +13,8 @@ async def function(name, number, wait):
 
         try:
             print('check command ',name)
-            #filePointer = open('./FCA/src/thread/alt.sto', 'r')
-            filePointer = open('/usr/src/app/src/thread/alt.sto', 'r')
+            filePointer = open('./FCA/src/thread/alt.sto', 'r')
+            #filePointer = open('/usr/src/app/src/thread/alt.sto', 'r')
                           
             try:
                 print('command ALT ',name)
