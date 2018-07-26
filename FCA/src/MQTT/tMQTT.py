@@ -3,7 +3,8 @@ import time
 import json
 import paho.mqtt.client as mqtt
 
-with open('./FCA/src/MQTT/message.json') as data_file:
+#with open('./FCA/src/MQTT/message.json') as data_file:
+with open ('/usr/src/app/src/MQTT/message.json') as data_file:
     send_msg = json.load(data_file)
 
 client = mqtt.Client("P1") #create new instance
