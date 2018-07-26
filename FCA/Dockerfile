@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -yq \
    pip install MinimalModbus && \
    pip install modbus_tk && \
    pip install paho-mqtt && \
+   apt-get upgrade && \
    apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /usr/src/app
