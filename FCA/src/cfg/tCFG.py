@@ -1,5 +1,5 @@
 import json
-from ConfigParser import SafeConfigParser
+from configparser import SafeConfigParser
 
 def main():
 
@@ -12,7 +12,7 @@ def main():
             lvINDEX=0
             for params in config[item]:
                 for key, value in params.iteritems():
-                    print item+'/'+str(lvINDEX)+'/'+key, value
+                    print item +'/'+str(lvINDEX)+'/'+key, value
                 lvINDEX+=1
 
 if __name__=='__main__':
