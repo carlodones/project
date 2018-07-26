@@ -3,7 +3,9 @@ from configparser import SafeConfigParser
 
 def main():
 
-    with open('./FCA/src/cfg/json.json', 'r') as f:
+    #with open('./FCA/src/cfg/json.json', 'r') as f:
+    with open('/usr/src/app/src/cfg/json.json', 'r') as f:
+      
         config = json.load (f)
         #print config
         for item in config:
