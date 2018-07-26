@@ -1,6 +1,11 @@
 # _project
-# _branch dev
+
+# fase di test
+-github
+-docker
+
 #Test caricamento _project su piattaforma Resin.io
+
 #Hardware
 - RevPi Core3
 - MDR-60-24
