@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -yq \
    pip install paho-mqtt && \
    apt-get clean && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /usr/src/FCA
+WORKDIR /usr/src/app
 
 COPY . .
 
@@ -15,6 +15,9 @@ ENV INITSYSTEM on
 
 #CMD ["python", "/usr/src/src/thread_sense.py"]
 
-CMD ["python", "/src/MODBUS/tMODUBUS.py"]
+CMD ["python", "/usr/src/app/src/MODBUS/tMODUBUS.py"]
+
+
+
 
 
