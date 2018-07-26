@@ -13,7 +13,6 @@ COPY . .
 
 ENV INITSYSTEM on
 
-CMD ["python", "/usr/src/app/src/MODBUS/tMODUBUS.py"]
-
+CMD ["python", "/usr/src/app/src/MODBUS/tMODBUS.py"]
 
 
