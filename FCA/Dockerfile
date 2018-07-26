@@ -13,11 +13,7 @@ COPY . .
 
 ENV INITSYSTEM on
 
-#CMD ["python", "/usr/src/src/thread_sense.py"]
-
 CMD ["python", "/usr/src/app/src/MODBUS/tMODUBUS.py"]
-
-
 
 
 
