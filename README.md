@@ -1,5 +1,8 @@
 # _project
 #Test caricamento _project su piattaforma Resin.io
+#Test
+- docker pictory 
+- docker ftp
 #Hardware
 - RevPi Core3
 - MDR-60-24

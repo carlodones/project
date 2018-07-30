@@ -3,3 +3,9 @@ services:
   FCA:
     build: ./FCA
     privileged: true
+  PICTORY:
+    build: ./PICTORY
+    privileged: true
+  FTP:
+    build: .FTP
+    PICTORY: true
